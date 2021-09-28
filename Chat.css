@@ -1,0 +1,235 @@
+.whatsapp_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background-color: darkslategrey;
+}
+
+
+.conversion{
+    height: 80%;
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 380px; */
+    width: 20vw;
+    background-size: cover;
+    border:7px solid #313131;
+}
+
+.girl{
+    margin-left: 10px;
+}
+
+.boy{
+    margin-right: 10px;
+}
+
+p{
+    margin: 0px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.common_chat{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px 0px;
+
+}
+
+.girlarea {
+    justify-content: flex-start;
+}
+
+.boyarea{
+    justify-content: flex-end;
+}
+
+.girl, .boy{
+    padding: 10px 10px 15px 10px;
+    border-radius: 9px;
+    background-color: #fff;
+    position: relative;
+    max-width: 80%;
+    position: relative;
+    min-width: 19%;
+}
+
+.girl span, .boy span{
+    font-size: 9px;
+    color: gray;
+    position: absolute;
+    right: 10px;
+    bottom: -3px;
+}
+
+.girl::before{
+    content: "";
+    position: absolute;
+    left: -7px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    top: 0px;
+}
+
+.boy::before{
+    content: "";
+    position: absolute;
+    right: -7px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #e4ffc6;
+    top: 0px;
+}
+
+.boy{
+    background-color: #E4FFC6;
+}
+
+.chat_area{
+    height: calc(100% - 108px);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.direction{
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.receiver{
+    background-color: #249a88;
+    padding: 6px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.receiver p{
+    color:#fff;
+    font-weight: 600;
+    margin-right: auto;
+    line-height: 1.4;
+}
+
+.receiver p span{
+    display: block;
+    font-weight: 400;
+}
+
+.receiver .MuiSvgIcon-root{
+    margin: 0px 5px;
+    color: #fff;
+    width: 7%;
+}
+
+.boy_area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 5px;
+}
+
+.boy_area .chat_group{
+    background-color: #fff;
+    width: 77%;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boy_area .chat_group .MuiSvgIcon-root{
+    color:#908b85;
+    width: 9%;
+    height: 9%;
+    margin: 0px 5px;
+}
+
+.boy_area input{
+    border: none;
+    width: 80%;
+}
+
+.girl_area input{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.girl_area h1{
+    color: #fff;
+    text-align: left;
+}
+
+.MuiIconButton-colorPrimary {
+    color: #e4dcd4;
+    background-color: #249a88;
+    margin-left: 10px;
+}
+
+.MuiIconButton-root{
+    color: #e5ddd5!important;
+    background-color: #249a88!important;  
+    padding: 5px!important;
+}
+
+
+
+.MuiIconButton-root .MuiSvgIcon-root{
+    width: 20px;
+    height: 20px;
+}
+
+.MuiSvgIcon-root
+.MuiIconButton-root:hover{
+    background-color: #249a88!important;
+    color: #e5ddd5; 
+}
+
+.boy_area input:focus-visible, .girl_area input:focus-visible{
+    outline: none;
+}
+/* scroll effect added */
+.direction::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.direction::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.direction::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+

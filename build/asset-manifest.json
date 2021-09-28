@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kapsechat/static/css/main.da535059.chunk.css",
+    "main.js": "/kapsechat/static/js/main.6fc843fa.chunk.js",
+    "main.js.map": "/kapsechat/static/js/main.6fc843fa.chunk.js.map",
+    "runtime-main.js": "/kapsechat/static/js/runtime-main.015c163c.js",
+    "runtime-main.js.map": "/kapsechat/static/js/runtime-main.015c163c.js.map",
+    "static/js/2.eb270158.chunk.js": "/kapsechat/static/js/2.eb270158.chunk.js",
+    "static/js/2.eb270158.chunk.js.map": "/kapsechat/static/js/2.eb270158.chunk.js.map",
+    "static/js/3.9df4152c.chunk.js": "/kapsechat/static/js/3.9df4152c.chunk.js",
+    "static/js/3.9df4152c.chunk.js.map": "/kapsechat/static/js/3.9df4152c.chunk.js.map",
+    "index.html": "/kapsechat/index.html",
+    "static/css/main.da535059.chunk.css.map": "/kapsechat/static/css/main.da535059.chunk.css.map",
+    "static/js/2.eb270158.chunk.js.LICENSE.txt": "/kapsechat/static/js/2.eb270158.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/kapsechat/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.015c163c.js",
+    "static/js/2.eb270158.chunk.js",
+    "static/css/main.da535059.chunk.css",
+    "static/js/main.6fc843fa.chunk.js"
+  ]
+}
